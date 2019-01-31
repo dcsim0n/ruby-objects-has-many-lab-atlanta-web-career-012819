@@ -5,7 +5,7 @@ class Artist
   end
 
   attr_accessor :name
-  attr_accessor :song
+  attr_accessor :songs
 
   def add_song(song)
     @songs << song
